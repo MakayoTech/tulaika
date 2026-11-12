@@ -1,7 +1,7 @@
-// Tulaika © 2026 Makayo Bridge Services LLC. All rights reserved.
+// Tulaika © 2026 Makayo Tech. All rights reserved.
 // Service worker: makes the app installable and opens quickly on slow connections.
 // The app shell is cached; live data (listings, chat) always comes from the network.
-const CACHE = 'tulaika-v2';
+const CACHE = 'tulaika-v3';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {

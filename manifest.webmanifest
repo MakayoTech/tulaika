@@ -2,7 +2,7 @@
   "name": "Tulaika: Guam Community Barter",
   "short_name": "Tulaika",
   "description": "Trade goods and services with neighbors across Guam, or pay a small fair price.",
-  "developer": { "name": "Makayo Bridge Services LLC" },
+  "developer": { "name": "Makayo Tech" },
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
