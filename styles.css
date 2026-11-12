@@ -251,3 +251,24 @@ code { background: var(--seg); padding: 1px 6px; border-radius: 6px; }
 .ownership { display: flex; flex-direction: column; gap: 4px; }
 .ownership p { margin: 0; }
 .ownership a { color: var(--teal); font-weight: 600; text-decoration: none; }
+/* Always-visible line under the home header that says what Tulaika is */
+.about-line { margin: 14px 20px 0; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
+.about-line strong { color: var(--teal); }
+.about-icon { flex: none; width: 32px; height: 32px; border-radius: 10px; background: var(--coral-soft); color: var(--coral-ink); display: inline-flex; align-items: center; justify-content: center; }
+.about-line + .welcome-wrap { padding-top: 12px; }
+/* Comfortable tap sizes (44px recommended) */
+.segmented button { height: 44px; }
+.village-pick, .village-pick select { height: 44px; }
+.welcome-close { width: 44px; height: 44px; margin: -10px -10px 0 0; }
+.chip { height: 40px; }
+.chips { gap: 10px; }
+
+/* Center Share button with its label */
+.nav-share { display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 11px; font-weight: 700; color: var(--coral-ink); text-decoration: none; min-height: 48px; justify-content: flex-end; margin-top: -18px; }
+.nav-share .nav-post { width: 50px; height: 50px; }
+/* Footer: Need help? / email / thanks / copyright */
+.ownership-help { font-weight: 700; color: var(--ink-2); }
+.ownership-thanks { margin-top: 6px !important; font-weight: 600; color: var(--coral-ink); }
+/* Rule reminder shown for some categories (food, meat, outdoors) */
+.category-note { display: flex; gap: 8px; align-items: flex-start; margin: -4px 0 0; font-size: 13px; line-height: 1.45; color: var(--coral-ink); background: var(--coral-soft); border-radius: 10px; padding: 9px 12px; }
+.category-note svg { flex: none; margin-top: 1px; }
